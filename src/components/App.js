@@ -30,10 +30,12 @@ setdata("");
        {
         output &&
         output.map((item,index)=>(
-        
-                <ul >
-                    <li  key={index}>{item}</li> <button onClick={()=>deltetodo(index)}>delete</button>
+        <div  key={index}>
+            <ul >
+                    <li  >{item}</li> <button onClick={()=>deltetodo(index)}>delete</button>
                 </ul>
+        </div>
+                
             
                
 
